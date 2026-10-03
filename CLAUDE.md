@@ -1,9 +1,12 @@
-# CLAUDE.md
+# Repository guide
 
-This is a Claude Code skill repository.
+This repository publishes the portable autoresearch-pro skill for Codex,
+Claude Code, Hermes, and OpenClaw. The repository and skill use the name autoresearch-pro.
 
-## Project Structure
-- SKILL.md - Main skill file
-- references/ - Supporting documents
-- README.md - English documentation
-- README_zh.md - Chinese documentation
+- SKILL.md: canonical behavior and standard discovery metadata.
+- references/mutation_strategies.md: optional edit-selection guidance.
+- README.md / README_zh.md: installation, client adaptation, migration, and limits.
+- LICENSE: retain the existing MIT license and attribution.
+
+Keep the core client-neutral. Do not add tools, dependencies, paid evaluation,
+or release destinations without a demonstrated need and appropriate authorization.
